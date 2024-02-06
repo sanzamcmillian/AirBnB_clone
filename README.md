@@ -2,11 +2,11 @@
 
 This is a team project to clone the Airbnb web app[Airbnb](https://www.airbnb.co.za)
 
-The console is a command interpreter to manage onjects abstraction between objects and how they are stored.
+The console is a command interpreter to manage on objects abstraction between objects and how they are stored.
 
 The console will perform the following:
 - create a new object
-- retrieve an object froma file
+- retrieve an object from a file
 - do operations on objects
 - destroy an object
 
