@@ -121,7 +121,7 @@ class HBNBCommand(cmd.Cmd):
             print("** class doesn't exist **")
         elif len(arg1) == 1:
             print("** instance id missing **")
-        elif objdict.pop(arg1[1], None) is None:
+        elif "{}.{}".format(arg1[0], arg1[1]) not in objdict.keys():
             print("** no instance found **")
         else:
             del objdict["{}.{}".format(arg1[0], arg1[1])]
